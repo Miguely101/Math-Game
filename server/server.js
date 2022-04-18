@@ -7,7 +7,7 @@ const io = require('socket.io')(http, {
     cors: {
         origin: '["http://localhost:4200"]',
     },
-});
+});sdasda
 
 
 io.on('connection', (socket) => {
